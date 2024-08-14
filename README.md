@@ -1,10 +1,10 @@
 # generar_txt
 
 ## Descripción
-programa que lee un archivo de configuracion y genera un archivo con los datos obtenidos.
+Programa que lee un archivo de configuración y genera un archivo con los datos obtenidos.
 
 ## Características Principales
-- **genera un archivo segun las especificacnoes:**  
+- **Genera un archivo según las especificaciones:**  
 
 
 ## Instalación y Configuración
@@ -19,30 +19,30 @@ programa que lee un archivo de configuracion y genera un archivo con los datos o
    git clone https://github.com/eduardob1324/generar_txt.git
 ```
 
-#### ruta del archivo 
-- El archivo se genera por defecto en la ruta de linux:
+#### Ruta del archivo
+- El archivo se genera por defecto en la ruta de Linux:
 ``` shell
     /home/nombre_usuario/Documentos/
 ```
-- pero tiene habilitadas rutas para windows 
+- También tiene habilitadas rutas para Windows:
 ```shell
   C:\Users\nombre_usuario\Documents\  -> ruta para windows
 ```
-- solo hay que descomentar la linea de la ruta valores.properties del sistema host y cambiar el "nombre_usuario" con el usuario del host.
+- Solo hay que descomentar la línea de la ruta en valores.properties del sistema host y cambiar "nombre_usuario" por el nombre de usuario del host.
 
-#### compilar y ejecutar el proyecto
-- para compilar habrimos una terminal desde la carpera raiz del proyecto y ejecutamos.
+#### Compilar y ejecutar el proyecto
+- Para compilar, abre una terminal desde la carpeta raíz del proyecto y ejecuta:
   
 ``` shell
    mvn install -DskipTests=true 
 ```
-- para ejecutar habrimos una terminal desde la carpera target del proyecto y ejecutamos.
+- Para ejecutar, abre una terminal desde la carpeta target del proyecto y ejecuta:
 ``` shell
    java -jar genera-txt-0.0.1-SNAPSHOT.jar
 ```
 
-#### nombre del archivo 
-- El archivo tiene el nombre de archivoGenerado.txt
-- El archivo se encontrara en la ruta: /home/nombre_usuario/Documentos/ en linux o C:\Users\nombre_usuario\Documents\ en windows
+#### Nombre del archivo
+- El archivo tiene el nombre archivoGenerado.txt.
+- El archivo se encontrará en la ruta: /home/nombre_usuario/Documentos/ en Linux o C:\Users\nombre_usuario\Documents\ en Windows.
 
 
