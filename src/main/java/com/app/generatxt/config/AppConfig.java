@@ -1,4 +1,4 @@
-package com.app.generartxt.configuration;
+package com.app.generatxt.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -13,6 +13,7 @@ import java.util.List;
 @Configuration
 @PropertySource("classpath:valores.properties")
 public class AppConfig {
+
 
     @Value("${config.regiones}")
     private String regiones;

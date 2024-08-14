@@ -1,8 +1,4 @@
-package com.app.generartxt.services;
-
-
-import com.app.generartxt.configuration.AppConfig;
-
+package com.app.generatxt.services;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -11,6 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 
+import com.app.generatxt.config.AppConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,7 +34,7 @@ public class FileService {
         logger.info("Generando archivo");
         List<String> valores = appConfig.obtenerValores();
 
-        File archivo = new File(valores.get(2)+"archivo.txt");
+        File archivo = new File(valores.get(2) + "archivo.txt");
 
         try {
             if (!archivo.exists()) {
@@ -85,6 +82,5 @@ public class FileService {
         }
 
     }
-
 
 }

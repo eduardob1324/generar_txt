@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.app</groupId>
-    <artifactId>generartxt</artifactId>
+    <artifactId>genera-txt</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>generartxt</name>
-    <description>Demo project for Spring Boot</description>
+    <name>genera-txt</name>
+    <description>genera-txt</description>
     <url/>
     <licenses>
         <license/>
