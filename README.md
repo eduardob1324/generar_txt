@@ -28,7 +28,7 @@ programa que lee un archivo de configuracion y genera un archivo con los datos o
 ```shell
   C:\Users\nombre_usuario\Documents\  -> ruta para windows
 ```
--solo hay que descomentar la linea de la ruta valores.properties del sistema host y cambiar el "nombre_usuario" con el usuario del host.
+- solo hay que descomentar la linea de la ruta valores.properties del sistema host y cambiar el "nombre_usuario" con el usuario del host.
 
 #### compilar y ejecutar el proyecto
 - para compilar habrimos una terminal desde la carpera raiz del proyecto y ejecutamos.
@@ -42,7 +42,7 @@ programa que lee un archivo de configuracion y genera un archivo con los datos o
 ```
 
 #### nombre del archivo 
--El archivo tiene el nombre de archivoGenerado.txt
--El archivo se encontrara en la ruta: /home/nombre_usuario/Documentos/ en linux o C:\Users\nombre_usuario\Documents\ en windows
+- El archivo tiene el nombre de archivoGenerado.txt
+- El archivo se encontrara en la ruta: /home/nombre_usuario/Documentos/ en linux o C:\Users\nombre_usuario\Documents\ en windows
 
 
