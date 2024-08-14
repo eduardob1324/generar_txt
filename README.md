@@ -42,6 +42,7 @@ programa que lee un archivo de configuracion y genera un archivo con los datos o
 ```
 
 #### nombre del archivo 
+-El archivo tiene el nombre de archivoGenerado.txt
 -El archivo se encontrara en la ruta: /home/nombre_usuario/Documentos/ en linux o C:\Users\nombre_usuario\Documents\ en windows
 
 
