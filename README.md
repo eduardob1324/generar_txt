@@ -26,7 +26,7 @@ Programa que lee un archivo de configuración y genera un archivo con los datos 
 ```
 - También tiene habilitadas rutas para Windows:
 ```shell
-  C:\Users\nombre_usuario\Documents\  -> ruta para windows
+  C:/Users/nombre_usuari/Downloads/  -> ruta para windows
 ```
 - Solo hay que descomentar la línea de la ruta en valores.properties del sistema host y cambiar "nombre_usuario" por el nombre de usuario del host.
 
@@ -43,6 +43,6 @@ Programa que lee un archivo de configuración y genera un archivo con los datos 
 
 #### Nombre del archivo
 - El archivo tiene el nombre archivoGenerado.txt.
-- El archivo se encontrará en la ruta: /home/nombre_usuario/Documentos/ en Linux o C:\Users\nombre_usuario\Documents\ en Windows según la configuración realizada.
+- El archivo se encontrará en la ruta: /home/nombre_usuario/Documentos/ en Linux o C:/Users/nombre_usuari/Downloads/ en Windows según la configuración realizada.
 
 
