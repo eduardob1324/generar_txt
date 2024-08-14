@@ -34,7 +34,7 @@ public class FileService {
         logger.info("Generando archivo");
         List<String> valores = appConfig.obtenerValores();
 
-        File archivo = new File(valores.get(2) + "archivo.txt");
+        File archivo = new File(valores.get(2) + "archivoGenerado.txt");
 
         try {
             if (!archivo.exists()) {
