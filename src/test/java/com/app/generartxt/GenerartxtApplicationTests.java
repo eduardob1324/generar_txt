@@ -1,13 +1,13 @@
-package com.app.demojwt;
+package com.app.generartxt;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoJwtApplicationTests {
+class GenerartxtApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }
