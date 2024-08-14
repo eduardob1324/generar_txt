@@ -43,6 +43,6 @@ Programa que lee un archivo de configuración y genera un archivo con los datos 
 
 #### Nombre del archivo
 - El archivo tiene el nombre archivoGenerado.txt.
-- El archivo se encontrará en la ruta: /home/nombre_usuario/Documentos/ en Linux o C:\Users\nombre_usuario\Documents\ en Windows.
+- El archivo se encontrará en la ruta: /home/nombre_usuario/Documentos/ en Linux o C:\Users\nombre_usuario\Documents\ en Windows según la configuración realizada.
 
 
